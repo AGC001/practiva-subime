@@ -1,0 +1,61 @@
+ .header {
+	background-color: green;
+	height: 90px;
+}
+
+.header-logo {
+	height: 100%
+	background-color: yellow;
+	width: 20%;
+	display: inline-block;
+	position: relative;
+}
+
+.header-logo.img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.header-main{
+	width: 80%;
+	background-color: purple;
+	display: inline-block;
+	float: right;
+	height: 45px;
+	box-sizing: border-box;
+
+}
+
+
+.header-main .links{
+	background-color: peru;
+	height: 45px;
+	font-size: 0.88em;
+}
+
+.header-main .links a{
+	float: right;
+	color: #333333;
+}
+
+.header-main .main-list-item{
+	display: inline-block;
+	margin-right: 15px;
+
+}
+
+.header-main .main-list{
+	margin:0px;
+	padding:0px;
+}
+
+.header-main .main-list-item a{
+	color: black;
+	text-decoration: none;
+	
+
+}

@@ -176,3 +176,81 @@ body, html {
 	color: black;
 	border: 1px solid black;
 }
+
+/*CUSTOMER*/
+
+.customer{
+
+}
+
+
+.customer-title{
+	text-align: center;
+	font-size: 1.50em;
+}
+
+.customer-content-image{
+	display: flex;
+	justify-content: space-around;
+}
+/*CARDS*/
+
+.card{
+	display: flex;
+	border: 1px solid #eee;
+	width: 48%;
+}
+
+.content-cards{
+	display: flex;
+}
+
+.card-img img{
+	height: 100%;
+}
+
+.card-text{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+}
+
+.card-text-text{
+	margin: 0 0 5px;
+	font-size: 0.88em;
+}
+
+.card-text-link{
+	margin: 0 0 5px;
+	font-size: 0.88em;
+}
+
+/*PLANING*/
+.planning{
+	display: flex;
+	background-color: #fafafa;
+	padding: 30 60px;
+}
+
+.planning-text{
+	display: flex;
+}
+
+.planning-content{
+	display: flex;
+}
+
+.planning-content-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.planning-content-image{
+	display: flex;
+}
+
+.list-item{
+
+}
